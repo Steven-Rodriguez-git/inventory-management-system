@@ -31,3 +31,4 @@ C:\Users\steve\OneDrive\Archivos\Sistema gestion de inventario\InventoryAPI\obj\
 C:\Users\steve\OneDrive\Archivos\Sistema gestion de inventario\InventoryAPI\obj\Debug\net9.0\InventoryAPI.pdb
 C:\Users\steve\OneDrive\Archivos\Sistema gestion de inventario\InventoryAPI\obj\Debug\net9.0\InventoryAPI.genruntimeconfig.cache
 C:\Users\steve\OneDrive\Archivos\Sistema gestion de inventario\InventoryAPI\obj\Debug\net9.0\ref\InventoryAPI.dll
+C:\Users\steve\OneDrive\Archivos\Sistema gestion de inventario\InventoryAPI\obj\Debug\net9.0\InventoryAPI.sourcelink.json
