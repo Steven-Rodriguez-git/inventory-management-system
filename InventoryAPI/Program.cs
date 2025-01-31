@@ -20,6 +20,9 @@ var app = builder.Build();
 
 //ENDPOINTS 
 
+app.MapGet("/", () => "¡Hola desde Minimal API en .NET 9!");
+
+
 app.MapGet("/products", async (AppDbContext db) =>
 {
     var products = await db.Products.ToListAsync();
