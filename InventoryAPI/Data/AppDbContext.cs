@@ -10,9 +10,7 @@ namespace InventoryAPI.Data
         }
 
         public DbSet<Product> Products { get; set; }
-        // Aquí defines tus tablas (DbSets)
-        // Ejemplo:
-        // public DbSet<Product> Products { get; set; }
+
     }
 }
 

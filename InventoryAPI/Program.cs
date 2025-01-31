@@ -16,6 +16,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "AllowAngular",
+        policy =>
+        {
+            // Permitimos a http://localhost:4200 acceder a cualquier método y encabezado
+            policy.WithOrigins("http://localhost:4200")
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
+
 var app = builder.Build();
 
 //ENDPOINTS 
@@ -63,6 +75,8 @@ app.MapDelete("/products/{id}", async (int id, AppDbContext db) =>
     await db.SaveChangesAsync();
     return Results.NoContent();
 });
+
+app.UseCors("AllowAngular");
 
 
 app.Run();

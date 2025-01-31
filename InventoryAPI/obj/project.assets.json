@@ -2851,11 +2851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steve\\OneDrive\\Archivos\\Sistema gestion de inventario\\InventoryAPI\\InventoryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\steve\\OneDrive\\Documentos\\Sistema gestion de inventario\\InventoryAPI\\InventoryAPI.csproj",
       "projectName": "InventoryAPI",
-      "projectPath": "C:\\Users\\steve\\OneDrive\\Archivos\\Sistema gestion de inventario\\InventoryAPI\\InventoryAPI.csproj",
+      "projectPath": "C:\\Users\\steve\\OneDrive\\Documentos\\Sistema gestion de inventario\\InventoryAPI\\InventoryAPI.csproj",
       "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steve\\OneDrive\\Archivos\\Sistema gestion de inventario\\InventoryAPI\\obj\\",
+      "outputPath": "C:\\Users\\steve\\OneDrive\\Documentos\\Sistema gestion de inventario\\InventoryAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config"
